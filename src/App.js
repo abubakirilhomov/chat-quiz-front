@@ -10,7 +10,7 @@ const App = () => {
   const state = useSelector((state) => state);
 
   console.log(state); // Выводим состояние в консоль для отладки
-
+//cjdovchusdbvcdiusyvidsugvisdvds
   return (
     <Router>
       <Routes>
@@ -18,6 +18,7 @@ const App = () => {
         <Route path="/join-room" element={<JoinRoom />} />
         <Route path="/room/:roomId" element={<ChatAndQuiz />} />
       </Routes>
+      <></>
     </Router>
   );
 };
